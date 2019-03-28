@@ -1,23 +1,20 @@
 
-<<<<<<< HEAD
+
 #github.com/Leach351/InClass8.git
-num1 = int(input("Please enter the first number: "))
 
-num2 = int(input("Pleasee enter the second number: "))
 
-num3 = int(input("PLease enter the third number: "))
 
-num4 = int(input("please enter the fourth number: "))
 
-num5 = int(input("Please enter the fifth number: "))
-
-num6 = int(input("Please enter the sixth number: "))
-=======
 num1Prob = True
 num2Prob = True
 num3Prob = True
 num4Prob = True
 num5Prob = True
+num6Prob = True
+num7Prob = True
+num8Prob = True
+num9Prob = True
+num10Prob = True
 
 while num1Prob == True:
 
@@ -35,13 +32,8 @@ while num2Prob == True:
         num2Prob = False
     else:
         print ("Error num not in Range")
->>>>>>> refs/remotes/origin/master
 
-num7 = int(input("Pleasee enter the seventh number: "))
 
-<<<<<<< HEAD
-num8 = int(input("PLease enter the eigth number: "))
-=======
 while num3Prob == True: 
     num3 = int(input("PLease enter the third number :"))
 
@@ -66,16 +58,54 @@ while num5Prob == True:
     if num5 >= 0 and num5 <= 1000:
         num5Prob = False
     else:
+        print ("Error num not in Range")
+
+while num6Prob == True:
+
+    num6 = int(input("Please enter the sixth number :"))
+
+    if num6 >= 0 and num6 <= 1000:
+        num6Prob =False
+    else:
+        print ("Error num not in Range")
+
+while num7Prob == True:
+    num7 = int(input("Pleasee enter the seventh number :"))
+
+    if num7 >= 0 and num7 <=1000:
+        num7Prob = False
+    else:
+        print ("Error num not in Range")
+
+
+while num8Prob == True: 
+    num8 = int(input("PLease enter the eighth number :"))
+
+    if num8 >= 0 and num8 <= 1000:
+        num8Prob = False
+    else:
+        print ("Error num not in Range") 
+        
+    
+while num9Prob == True:
+    num9 = int(input("please enter the ninth number :"))
+        
+    if num9 >= 0 and num9 <= 1000:
+        num9Prob = False
+    else:
+        print ("Error num not in Range")    
+
+
+while num10Prob == True:
+    num10 = int(input("Please enter the tenth number :"))
+
+    if num10 >= 0 and num10 <= 1000:
+        num10Prob = False
+    else:
         print ("Error num not in Range")    
 
 
 ## for lowest
-if num1 < num2 and num1 < num3 and num1 < num4 and num1 < num5:
->>>>>>> refs/remotes/origin/master
-
-num9 = int(input("please enter the ninth number: "))
-
-num10 = int(input("Please enter the tenth number: "))
 
 largest = 0
 smallest = 0
@@ -120,11 +150,6 @@ else:
 
 
 
-<<<<<<< HEAD
-=======
-## for the largest
->>>>>>> refs/remotes/origin/master
-
 
 
 ## for the largest
@@ -161,15 +186,14 @@ elif num9 > num1 and num9 > num2 and num9 > num3 and num9 > num4 and num9 > num5
     largest = num9
 
 else:
-<<<<<<< HEAD
+
     largest = num10
 
 
-print_smallest = print("The smallest number is: ", smallest, "The largest number is: ", largest)
-=======
-    print ("the largest number is", num5)
+print("The smallest number is: ", smallest, "The largest number is: ", largest)
 
 
->>>>>>> refs/remotes/origin/master
+
+
 
 
